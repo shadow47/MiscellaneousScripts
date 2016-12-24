@@ -23,4 +23,4 @@ for index, x in enumerate(dirs):
        y = y +'/'+ x; #show last element as full string
 #if len(pwd) > 30:
 #    pwd = pwd[:10]+'...'+pwd[-20:] # first 10 chars+last 20 chars
-print '\033[01;32m%s@%s:\033[00m%s \033[01;32mλ \033[00m' % (username, hostname, y)  
+print '\033[01;32m%s@%s:\033[01;33m%s \033[01;32mλ \033[00m' % (username, hostname, y)  
